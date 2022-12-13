@@ -10,7 +10,7 @@
             Console.WriteLine($"Day 2: {Solve2(input)}");
         }
 
-        static string Solve1(string[] input)
+        private static string Solve1(string[] input)
         {
             int sum = 0;
             int highest = 0;
@@ -29,7 +29,7 @@
             return highest.ToString();
         }
 
-        static string Solve2(string[] input)
+        private static string Solve2(string[] input)
         {
             int sum = 0;
             List<int> topThree = new List<int>() { 0, 0, 0 };
